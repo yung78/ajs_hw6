@@ -33,6 +33,5 @@ const character = {
     },
   ],
 };
-const { special } = character;
 
-console.log(getSpecialAttack(special));
+console.log(getSpecialAttack(character));
